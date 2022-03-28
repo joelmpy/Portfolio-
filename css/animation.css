@@ -1,0 +1,70 @@
+
+/* Texte */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wrapper .texte {
+    color: black;
+    font-size: 45px;
+    padding: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: papa;
+  }
+  
+
+/* DYNAMIQUE TEXTE */
+
+.wrapper .dynamique-texte {
+    margin-left: 2px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+  }
+  
+  .dynamique-texte li {
+    list-style: none;
+    color: red;
+    font-size: 70px;
+    font-weight: 100;
+    position: relative;
+    font-family: maman;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  
+  @keyframes slide {
+    100% {
+      top: -360px;
+    }
+  }
+  
+  .dynamique-texte li {
+    position: relative;
+  }
+  
+  .dynamique-texte li ::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid red;
+    left: 0;
+    background: black;
+    animation: typing 3s steps(10) infinite;
+  }
+  
+  @keyframes typing {
+    40%,
+    60% {
+      left: calc(100% + 30px);
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+  
