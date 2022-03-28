@@ -6,19 +6,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- fONT  -->
+    <!-- fONT kit -->
     <script src="https://kit.fontawesome.com/e908f71e67.js" crossorigin="anonymous"></script>
-
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
     <!-- Title -->
     <title>Portflio de Joel</title>
 </head>
 
 <body>
-
     <div class="header">
         <nav class="navbar">
             <!------- Navigation bar -------->
@@ -28,10 +31,8 @@
             <!------- NAVIGATION MENU ------->
             <ul class="nav-links">
                 <!------- Responsive NAVIGATION MENU ------->
-
                 <input type="checkbox" id="checkbox_toggle" />
                 <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-
                 <!------- NAVIGATION MENU ------->
                 <div class="menu">
                     <li> <a href="#"><span>Home</span></a></li>
@@ -42,40 +43,33 @@
                 </div>
             </ul>
         </nav>
-
         <!--------- Texte d'intro -------->
         <div class="content">
             <h4>Bonjour mon nom est</h4>
             <h1>Mampouya Joel</h1>
             <h3>Je suis un développeur</h3>
         </div>
-
     </div>
-
-
     <!------- Profil ------->
+    <div class="section-profil" id="Profil">
 
-    <div class="section" id="Profil">
-
+        <div class="section-title">
+            <h2 class="title">Profil</h2>
+        </div>
         <div class="section-inside">
-
-            <div class="image">
-                <img src="./image/leaf+1.png" alt="">
+            <div class="section-left">
+                <div class="image">
+                    <img src="./image/Joel.JPG" alt="">
+                </div>
             </div>
-
-            <div class="section-title">
-                <h2 class="title">Profil</h2>
-            </div>
-
-            <div class="presentation">
-                <h5>Developpeur Web <span>Full-Stack</span></h5>
-                <p>Je suis en formation de développeur web chez Konexio, je suis à la recherche d’un stage d’une
-                    durée de 4 à 6 mois dans le but de confirmer mes acquis et mes compétences afin de pouvoir valider
+            <div class="section-right">
+                <h3>Developpeur Web - <span>Full-Stack</span></h3>
+                <p>Je suis en formation de développeur web chez Konexio d'une durée de 4 à 6 mois dans le but de
+                    confirmer mes acquis et mes compétences afin de pouvoir valider
                     mon diplôme de développeur web full stack.
                     En effet pendant ma formation, j’ai pu approfondir mes connaissances en HTML, CSS et JavaScript,
-                    j’ai
-                    pu acquérir des connaissances en React JS ainsi qu’en Bootstrap ; Node, Express.js et MogoDB que je
-                    suis en train d’apprendre. Toutes ces compétences m’ont beaucoup aidé pour différents projets en</p>
+                    j’ai pu acquérir des connaissances en React JS ainsi qu’en Bootstrap ; Node, Express.js et MogoDB
+                </p>
             </div>
 
         </div>
@@ -83,12 +77,14 @@
 
     <!------- Compétences -------->
 
-    <div classe="section" id="Compétences">
+    <div classe="section-skill" id="Compétences">
+
+        <div class="section-title">
+            <h2 class="title">Compétences</h2>
+        </div>
 
         <div class="section-inside">
-            <div class="section-title">
-                <h2 class="title">Compétences</h2>
-            </div>
+           
 
             <div class="card-slider">
                 <h3 class="subtitle">FrontEnd</h3>
@@ -186,9 +182,11 @@
 
     </div>
 
-    <!------------ Javascript et Jquery ----------------->
+    <!------------ Javascript et Jquery Bootsraps ----------------->
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="main.js"></script>
 

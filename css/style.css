@@ -13,6 +13,30 @@ li {
   list-style: none;
 }
 
+.section-title{
+  text-align: center;
+  background-color: red;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: maman;
+}
+
+
+/******************************************* police font******************************************************/  
+@font-face {
+  font-family: papa;
+  src: url(../font/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: maman;
+  src: url(../font/Bullpen3D.ttf);
+}
+
 
 /******************************************* Header ******************************************************/  
 
@@ -89,16 +113,61 @@ li {
   }
 
 .section-inside{
-  margin:20px;
   width:100%;
   margin-top:10vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 /**************************** Section Profil *****************************/ 
+
+.section-profil{
+  background-color: #000;
+}
+.presentation{
+  background-color: aqua;
+}
+.section-left{
+  width:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:500px;
+}
+.section-left .image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-left img{
+  max-width: 50%;
+  height: auto;
+}
+
+.section-right{
+  width:50%;
+  height:50vh;
+}
+
+.section-right h3{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: papa;
+}
+.section-right span{
+  font-size: 1.6rem;
+  color: darkred;
+  font-family: papa;
+}
+.section-right p{
+  font-size:1.2rem;
+  color: white;
+  text-align: justify;
+  font-family: papa;
+}
+
 /*************************** Section Compétences *************************/ 
 /*************************** Section Projet *****************************/ 
 /*************************** Section Contact ****************************/ 
