@@ -4,6 +4,7 @@
 .wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   
   .wrapper .texte {
@@ -19,7 +20,7 @@
 /* DYNAMIQUE TEXTE */
 
 .wrapper .dynamique-texte {
-    margin-left: 2px;
+    margin-left: 1px;
     line-height: 90px;
     height: 90px;
     overflow: hidden;
@@ -28,8 +29,8 @@
   .dynamique-texte li {
     list-style: none;
     color: red;
-    font-size: 70px;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight: 500;
     position: relative;
     font-family: maman;
     top: 0;
@@ -53,14 +54,14 @@
     width: 100%;
     border-left: 2px solid red;
     left: 0;
-    background: black;
+    background: transparent;
     animation: typing 3s steps(10) infinite;
   }
   
   @keyframes typing {
     40%,
     60% {
-      left: calc(100% + 30px);
+      left: calc(100% + 25px);
     }
     100% {
       left: 0;
