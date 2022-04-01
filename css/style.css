@@ -98,11 +98,23 @@ li {
   color: white;
   position: absolute;
   top: 30%;
-  right: 70%;
-  background-color: red;
-
+  right: 34%;
+  border: 10px solid transparent;
+  box-shadow: 1px 1px 1px 1px rgb(97, 97, 97);
 }
 
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: papa;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: 500;
+  font-family: papa;
+
+}
 /**************************************** Section ***************************************************/ 
 
 .section{
