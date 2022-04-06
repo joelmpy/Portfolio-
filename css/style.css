@@ -1,4 +1,4 @@
-/********** Mise en page ******************/ 
+/********** Mise en page ******************/
 
 body {
   padding: 0;
@@ -8,390 +8,341 @@ body {
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
+
 li {
-list-style: none;
+  list-style: none;
 }
 
-.section-title{
-text-align: center;
-color: white;
-padding: 10px;
-font-size: 40px;
+.section-title {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
 }
 
-.title{
-font-size: 30px;
-font-weight: bold;
-text-transform: uppercase;
-font-family: maman;
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: maman;
 }
 
 
-/******************************************* police font******************************************************/  
+/******************************************* police font******************************************************/
 @font-face {
-font-family: papa;
-src: url(../font/Lato-Bold.ttf);
+  font-family: papa;
+  src: url(../font/Lato-Bold.ttf);
 }
 
 @font-face {
-font-family: maman;
-src: url(../font/Bullpen3D.ttf);
+  font-family: maman;
+  src: url(../font/Bullpen3D.ttf);
 }
 
 
-/******************************************* Header ******************************************************/  
+/******************************************* Header ******************************************************/
 
-.header{
-width: 100%;
-height: 90vh;
-background: url(../image/computer-macbook-pro-programmer-programming-957424-1280x640.jpg);
-background-size: cover;
-background-position: center;
+.header {
+  width: 100%;
+  height: 90vh;
+  background: url(../image/computer-macbook-pro-programmer-programming-957424-1280x640.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-/********** Logo de la page ******************/ 
+/********** Logo de la page ******************/
 
 .logo img {
-width: 150px;
-height: 80px;
+  width: 150px;
+  height: 80px;
 }
 
-/********** Nav-Bar ******************/ 
+/********** Nav-Bar ******************/
 
 .navbar {
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 20px;
-color: #fff;
-}
-.nav-links a {
-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
 }
 
-/********** Nav-Bar Menu ******************/ 
+.nav-links a {
+  color: #fff;
+}
+
+/********** Nav-Bar Menu ******************/
 
 .menu {
-display: flex;
-gap: 1em;
-font-size: 18px;
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
 }
+
 .menu li {
-padding: 5px 14px;
+  padding: 5px 14px;
 }
 
 .menu li:hover {
-background-color: #4c9e9e;
-border-radius: 5px;
-transition: 0.3s ease;
-cursor: pointer;
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  cursor: pointer;
 }
 
 
-/**********Content ******************/ 
+/**********Content ******************/
 
-.content{
-color: white;
-position: absolute;
-top: 30%;
-right: 34%;
-border: 10px solid transparent;
-box-shadow: 1px 1px 1px 1px rgb(97, 97, 97);
+.content {
+  color: white;
+  position: absolute;
+  top: 30%;
+  right: 34%;
+  border: 10px solid transparent;
+  box-shadow: 1px 1px 1px 1px rgb(97, 97, 97);
 }
 
 h1 {
-font-size: 50px;
-font-weight: 500;
-font-family: papa;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: papa;
 }
 
-h2{
-font-size: 30px;
-font-weight: 500;
-font-family: papa;
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: papa;
 }
 
-/**************************************** Section ***************************************************/ 
+/**************************************** Section ***************************************************/
 
-.section{
-min-height:50vh;
-display: flex;
-align-items: center;
-flex-direction: column;
-}
-
-.section-inside{
-width:100%;
-margin-top:3vh;
-display: flex;
-align-items: center;
-justify-content: center;
+.section {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-/**************************** Section Profil *****************************/ 
-
-.section-profil{
-background-color: #252423;
+.section-inside {
+  width: 100%;
+  margin-top: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.section-left{
-width:50%;
-display: flex;
-align-items: center;
-justify-content: center;
-height:90vh;
-}
-.section-left .image{
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.section-left img{
-max-width: 50%;
-height: auto;
-border-radius: 20px;
+/**************************** Section Profil *****************************/
+
+.section-profil {
+  background-color: #252423;
 }
 
-.section-right{
-width:50%;
-height:50vh;
+.section-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
 }
 
-.section-right h3{
-font-size: 1.6rem;
-font-weight: bold;
-color: #fff;
-font-family: papa;
+.section-left .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.section-right span{
-font-size: 1.6rem;
-color: darkred;
-font-family: papa;
+
+.section-left img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 20px;
 }
-.section-right p{
-font-size:1.2rem;
-color: white;
-text-align: justify;
-font-family: papa;
+
+.section-right {
+  width: 50%;
+  height: 50vh;
+}
+
+.section-right h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: papa;
+}
+
+.section-right span {
+  font-size: 1.6rem;
+  color: darkred;
+  font-family: papa;
+}
+
+.section-right p {
+  font-size: 1.2rem;
+  color: white;
+  text-align: justify;
+  font-family: papa;
 }
 
 .btn {
-margin-top: 50px;
-height: 50px;
-width: 180px;
-background-color: darkred;
-border-radius: 5px;
-color: white;
-cursor: pointer;
+  margin-top: 50px;
+  height: 50px;
+  width: 180px;
+  background-color: darkred;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
 }
 
 .btn .fa-download {
-font-size: 1.5rem;
-color: #000;
+  font-size: 1.5rem;
+  color: #000;
 }
+
 .btn a {
-color: white;
-font-weight: bold;
-text-align: center;
-font-size: 1.5rem;
-margin: 10px;
-font-family: papa;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+  font-family: papa;
 }
 
-.btn:hover{
-background:red;
+.btn:hover {
+  background: red;
 }
 
 
-/*************************** Section Compétences *************************/ 
+/*************************** Section Compétences *************************/
 
-#Compétences{
-margin-bottom: 20px;
-background-color: #191919;
-animation-duration: 3s;
-animation-name: slidein;
+#Compétences {
+  margin-bottom: 20px;
+  background-color: #191919;
 }
 
-@keyframes slidein {
-from {
-  margin-right: 100%;
-  width: 300%;
-}
-to {
-  margin-right: 0%;
-  width: 100%;
-}
+.section-inside-skill {
+  display: flex;
+  padding-top: 30px;
 }
 
-.progression{
-width: 60%;
-margin: 20px auto;
-margin-bottom: 70px;
-
+.subtitle {
+  color: white;
 }
 
-.progress {
-width: 100%;
-height: 18px;
-background-color: grey;
-border-radius: 20px;
-border: 1px solid black;
+.skill-titile {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: maman;
+  color: white;
 }
 
-.progress-bar{
-width: 80%;
-height: 100%;
-background-color: yellow;
-border-radius: 19px;
-text-align: right;
-position: relative;
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 60%;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  grid-gap: 30px;
 }
 
-.fa-brands{
-color: white;
-padding: 10px;
+.list img {
+  height: 110px;
+  cursor: pointer;
 }
 
-.subtitle{
-color: white;
+.list img:hover {
+  background: black;
+  transition: 0.9s;
+  font-size: 30%;
+  padding: 5px;
 }
 
-.html {
-width: 70%;
-height: 100%;
-background-color: orange;
-border-radius: 19px;
-text-align: right;
-position: relative;
-
+.skill {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.css{
-width: 60%;
-height: 100%;
-background-color: blue;
-border-radius: 19px;
-text-align: right;
-position: relative;
-color: #fff;
+.backend {
+  text-align: center;
+  width: 50%;
 }
 
-.javascript{
-width: 30%;
-height: 100%;
-background-color: yellow;
-border-radius: 19px;
-text-align: right;
-position: relative;
+.frontend {
+  text-align: center;
+  width: 50%;
 }
 
-.jquery{
-width: 30%;
-height: 100%;
-background-color: rgb(16, 190, 202);
-border-radius: 19px;
-text-align: right;
-position: relative;
-}
-.react{
-width: 30%;
-height: 100%;
-background-color: rgb(56, 153, 231);
-border-radius: 19px;
-text-align: right;
-position: relative;
-}
-
-.git{
-width: 50%;
-height: 100%;
-background-color: black;
-border-radius: 19px;
-text-align: right;
-position: relative;
-color: #fff;
-}
-.bootstrap{
-width: 50%;
-height: 100%;
-background-color: rgb(44, 4, 44);
-border-radius: 19px;
-text-align: right;
-position: relative;
-color: #fff;
-}
-.progress-bar span {
-position: absolute;
-top: 0;
-right: 0;
-font-weight: 500;
+.ligne {
+  height: 600px;
+  position: absolute;
+  margin-left: -4px;
+  border-left: 3px solid white;
+  left: 50%;
 }
 
 
 
-/*************************** Section Projet *****************************/ 
+/*************************** Section Projet *****************************/
 
-.section-card{
-margin: 30px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-height: 97vh;
-padding: 1px;
+.section-card {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 97vh;
+  padding: 1px;
 }
 
-.card{
-height: 500px;
-width: 300px;
-border-radius: 10px;
-box-shadow: 0px 0px 15px background;
-color: #fff;
-position: relative;
-margin: 10px;
+.card {
+  height: 500px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px background;
+  color: #fff;
+  position: relative;
+  margin: 10px;
 }
 
-.card:hover{
-   cursor: pointer;
-  background-color:black;
+.card:hover {
+  cursor: pointer;
+  background-color: black;
   color: white;
   transform: scale(1.03);
   transition: all 1s ease;
 }
 
-.card-body{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-padding: 15px;
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
 }
 
 .card-body img {
-width: 140px;
-height: 140px;
+  width: 140px;
+  height: 140px;
 }
 
-.card-body .card-text{
-font-size:1rem;
-color: white;
-text-align: justify;
-font-family: papa;
-}
-
-
-/*************************** Section Contact ****************************/ 
-
-.section-contact{
-background-color: #191919;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-height: 97vh;
+.card-body .card-text {
+  font-size: 1rem;
+  color: white;
+  text-align: justify;
+  font-family: papa;
 }
 
 
+/*************************** Section Contact ****************************/
 
+.section-contact {
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 97vh;
+}
