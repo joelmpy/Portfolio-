@@ -4,7 +4,6 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #252423;
 }
 
 a {
@@ -13,12 +12,13 @@ a {
 
 li {
   list-style: none;
-}
+} 
 
 .section-title {
   text-align: center;
   color: white;
-  padding: 10px;
+  padding:10px;
+  margin-bottom: 10vh;
   font-size: 40px;
 }
 
@@ -27,6 +27,13 @@ li {
   font-weight: bold;
   text-transform: uppercase;
   font-family: maman;
+}
+
+/******************************************* Couleur ******************************************************/
+:root{
+  --color-bg:#1f1f39;
+  --color-bg-variant:#2c2C6c;
+  --color-bg-primary:#4db5ff;
 }
 
 
@@ -67,6 +74,8 @@ li {
   justify-content: space-between;
   padding: 20px;
   color: #fff;
+  overflow: hidden;
+  background-color: #191919;
 }
 
 .nav-links a {
@@ -86,7 +95,7 @@ li {
 }
 
 .menu li:hover {
-  background-color: #4c9e9e;
+  background-color: darkred;
   border-radius: 5px;
   transition: 0.3s ease;
   cursor: pointer;
@@ -119,7 +128,7 @@ h2 {
 /**************************************** Section ***************************************************/
 
 .section {
-  min-height: 50vh;
+  min-height: 20vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -136,7 +145,13 @@ h2 {
 /**************************** Section Profil *****************************/
 
 .section-profil {
-  background-color: #252423;
+  background : var(--color-bg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
 .section-left {
@@ -144,7 +159,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 50vh;
 }
 
 .section-left .image {
@@ -156,7 +171,14 @@ h2 {
 .section-left img {
   max-width: 50%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(1);
+}
+
+.section-left img:hover{
+
+transform: rotate(10deg);
 }
 
 .section-right {
@@ -216,8 +238,7 @@ h2 {
 /*************************** Section Compétences *************************/
 
 #Compétences {
-  margin-bottom: 20px;
-  background-color: #191919;
+  background : var(--color-bg);
 }
 
 .section-inside-skill {
@@ -240,11 +261,11 @@ h2 {
 .list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 60%;
+  width: 70%;
   margin: 20px auto;
   flex-wrap: wrap;
-  margin-bottom: 100px;
   grid-gap: 30px;
+  border-radius: 1rem;
 }
 
 .list img {
@@ -253,7 +274,6 @@ h2 {
 }
 
 .list img:hover {
-  background: black;
   transition: 0.9s;
   font-size: 30%;
   padding: 5px;
@@ -287,13 +307,15 @@ h2 {
 
 /*************************** Section Projet *****************************/
 
+.section-projet{
+  background : var(--color-bg);
+}
 .section-card {
   margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 97vh;
   padding: 1px;
 }
 
@@ -339,10 +361,43 @@ h2 {
 /*************************** Section Contact ****************************/
 
 .section-contact {
-  background-color: #191919;
+  background : var(--color-bg);
+}
+
+.section-inside-contact {
+  background-color: red;
+}
+
+.contact{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  height: 97vh;
+  padding: 30px 0 30px 0;
+}
+
+.contact a {
+  margin: 40px;
+  color: #fff;
+}
+
+.contact a:hover{
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+.contact .fa-envelope{
+  font-size: 100px;
+}
+
+.contact .fa-github{
+  font-size: 100px;
+}
+
+.contact .fa-linkedin{
+  font-size: 100px;
+}
+
+.menu-footer {
+  background-color: blue;
 }
