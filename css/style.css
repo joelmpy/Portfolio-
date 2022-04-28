@@ -76,7 +76,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 15px;
   color: #fff;
   overflow: hidden;
   background: var(--color-bg-variant);
@@ -348,7 +348,7 @@ cursor: pointer;
 
 .card:hover {
   cursor: pointer;
-  background-color: black;
+  background : var(--color-bg);
   color: white;
   transform: scale(1.03);
   transition: all 1s ease;
@@ -363,8 +363,14 @@ cursor: pointer;
 }
 
 .card-body img {
-  width: 140px;
-  height: 140px;
+  max-height: 150px;
+  max-width: 200px;
+}
+.projet-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .card-body .card-text {
@@ -372,6 +378,20 @@ cursor: pointer;
   color: white;
   text-align: justify;
   font-family: papa;
+}
+
+.card-skill {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+}
+
+.card-skill img {
+  max-height: 80px;
+  max-width: 80px;
+  padding: 10px;
 }
 
 

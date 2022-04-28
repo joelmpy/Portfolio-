@@ -12,11 +12,10 @@ input[type="checkbox"] {
 
 /* APPLYING MEDIA QUERIES */
 
-@media (max-width: 862px) {
+@media (max-width: 880px) {
   .menu {
     display: none;
-    position: absolute;
-    background : var( --color-bg-variant-contact);
+    background: var(--color-bg-variant-contact);
     right: 0;
     left: 0;
     text-align: center;
@@ -25,7 +24,7 @@ input[type="checkbox"] {
 
   .menu li:hover {
     display: inline-block;
-    background : var( --color-bg-variant);
+    background: var(--color-bg-variant);
     transition: 0.3s ease;
   }
 
@@ -35,11 +34,11 @@ input[type="checkbox"] {
 
   input[type="checkbox"]:checked~.menu {
     display: block;
+    color: white;
   }
 
   .hamburger {
     display: block;
-    color: white;
   }
 }
 
@@ -185,15 +184,17 @@ input[type="checkbox"] {
   .ligne {
     display: none;
   }
+
   .frontend {
     width: auto;
     padding-bottom: 25px;
   }
+
   .backend {
     width: auto;
     padding-bottom: 25px;
   }
-  
+
 }
 
 @media (max-width: 415px) {
@@ -212,6 +213,7 @@ input[type="checkbox"] {
   .skill .subtitle {
     font-size: 1.2rem;
   }
+
   .list img {
     max-height: 50px;
     max-width: 50px;
@@ -220,15 +222,17 @@ input[type="checkbox"] {
   .ligne {
     display: none;
   }
+
   .frontend {
     width: auto;
     padding-bottom: 25px;
   }
+
   .backend {
     width: auto;
     padding-bottom: 25px;
   }
-  
+
 }
 
 
@@ -260,24 +264,25 @@ input[type="checkbox"] {
     cursor: pointer;
     transition: transform ease-in-out 1s;
   }
-  .contact .fa-github{
-    font-size: 7rem;
-  }
-  
-  .contact .fa-linkedin{
+
+  .contact .fa-github {
     font-size: 7rem;
   }
 
-  .mail .fa-envelope{
+  .contact .fa-linkedin {
     font-size: 7rem;
   }
-  
+
+  .mail .fa-envelope {
+    font-size: 7rem;
+  }
+
 }
 
 
 
 @media (max-width: 415px) {
- 
+
 
   .mail {
     flex-direction: column;
@@ -304,16 +309,16 @@ input[type="checkbox"] {
     transition: transform ease-in-out 1s;
   }
 
-  .contact .fa-github{
-    font-size: 4rem;
-  }
-  
-  .contact .fa-linkedin{
+  .contact .fa-github {
     font-size: 4rem;
   }
 
-  .mail .fa-envelope{
+  .contact .fa-linkedin {
     font-size: 4rem;
   }
-  
+
+  .mail .fa-envelope {
+    font-size: 4rem;
+  }
+
 }
