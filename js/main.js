@@ -4,11 +4,16 @@ new Typewriter (txtAnime, {
     lopp : true,
      deleteSpeed : 50,
 })
-.typeString("<span>Je suis un Développeur web junior</span>")
+.typeString("<span>Développeur web junior</span>")
 .pauseFor(250)
 .deleteChars(11)
-.typeString("<span style = 'color:darkred'> FrondEnd</span>")
+.typeString("<span style = 'color:darkred'> full-stack</span>")
 .pauseFor(300)
-.deleteChars(8)
-.typeString("<span  style = 'color:darkred'> BackEnd</span>")
 .start()
+
+const menuHaumburger = document.querySelector('.menu-hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+menuHaumburger.addEventListener('click', () => {
+    navLinks.classList.toggle('mobile-menu')
+})

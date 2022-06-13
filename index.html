@@ -12,41 +12,37 @@
     <link rel="stylesheet" href="./css/animation.css">
     <!-- Font fontawesome -->
     <script src="https://kit.fontawesome.com/8e1c62a1dd.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@700&display=swap"
+        rel="stylesheet">
     <!-- Title -->
     <title>Portflio de Joel</title>
 </head>
 
 <body>
-    <div class="header">
-        <nav class="navbar">
-            <!------- Navigation bar -------->
-            <div class="logo">
-                <img src="./image/MPY.png" alt="Logo de Joel">
-            </div>
-            <!------- NAVIGATION MENU ------->
-            <ul class="nav-links">
-                <!------- Responsive NAVIGATION MENU ------->
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                <!------- NAVIGATION MENU ------->
-                <div class="menu">
-                    <li> <a href="#"><span>Home</span></a></li>
-                    <li> <a href="#Profil"><span>Profil</span></a></li>
-                    <li> <a href="#Compétences"><span>Compétences</span></a></li>
-                    <li> <a href="#Projet"><span>Projet</span></a></li>
-                    <li> <a href="#Contact"><span>Contact</span></a></li>
-                </div>
+    <!-- Navbar -->
+    <nav class="navBar">
+        <div class="logo">
+            <img src="./image/MPY.png" alt="">
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#Profil">Profil</a></li>
+                <li><a href="#Compétences">Compétences</a></li>
+                <li><a href="#Projet">Projet</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
-        </nav>
-        <!--------- Texte d'intro -------->
+        </div>
+        <img src="./assets/menu-btn.png" alt="" class="menu-hamburger">
+    </nav>
 
+    <header>
         <div class="content">
             <h1>Mampouya Joel</h1>
             <h2>""</h2>
         </div>
-    </div>
+    </header>
     <!------- Profil ------->
+       
     <div class="section-profil" id="Profil">
 
         <div class="section-title">
@@ -67,12 +63,13 @@
                     en HTML, CSS et JavaScript. <br>
                     J’ai pu acquérir des connaissances en React JS ainsi qu’en Bootstrap et Jquery
                 </p>
-                <button class="btn">
-                    <i class="fa-solid fa-download"></i>
-                    <a href="./assets/MAmpouya Joel.pdf" target="_blank">Mon CV</a>
-                </button>
             </div>
-
+        </div>
+        <div class="button">
+            <button class="btn">
+                <i class="fa-solid fa-download"></i>
+                <a href="./assets/MAmpouya Joel.pdf" target="_blank">Mon CV</a>
+            </button>
         </div>
     </div>
 
@@ -133,9 +130,9 @@
                 </div>
             </div>
 
-                <div class="ligne"></div>
+            <div class="ligne"></div>
 
-                <hr class="barre">
+            <hr class="barre">
 
             <div class="backend">
                 <h3 class="skill-titile">Backend</h3>
@@ -157,8 +154,6 @@
         </div>
     </div>
 
-
-
     <!-------- Projets --------->
     <div class="section-projet" id="Projet">
 
@@ -175,12 +170,12 @@
                         <a href="#"></a>
                         <img src="./image/header.jpg" alt="">
                         <h4 class="projet-title">Cuizine</h4>
-                        <p class="card-text">Un site de restauration Responsive</p>   
+                        <p class="card-text">Un site de restauration Responsive</p>
                     </div>
                     <div class="card-skill">
-                        <img src="./image/html.png" alt="" >
-                        <img src="./image/Bootstrap.png" alt="" >
-                        <img src="./image/css.png" alt="" >
+                        <img src="./image/html.png" alt="">
+                        <img src="./image/Bootstrap.png" alt="">
+                        <img src="./image/css.png" alt="">
                     </div>
                 </div>
 
@@ -192,9 +187,9 @@
                         <p class="card-text">Voici un joli calculateur de calories </p>
                     </div>
                     <div class="card-skill">
-                        <img src="./image/html.png" alt="" >
-                        <img src="./image/javascriptsvg.png" alt="" >
-                        <img src="./image/css.png" alt="" >
+                        <img src="./image/html.png" alt="">
+                        <img src="./image/javascriptsvg.png" alt="">
+                        <img src="./image/css.png" alt="">
                     </div>
 
                 </div>
@@ -225,9 +220,6 @@
 
     </div>
 
-
-
-
     <!-------- Contact --------->
 
     <footer class="section-contact" id="Contact">
@@ -240,13 +232,14 @@
 
             <div class="contact">
                 <a href="https://github.com/joelmpy" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/mampouya-joel/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/mampouya-joel/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
             </div>
             <div class="mail">
                 <a href="mailto:mampouyajooel@gmail.com"><i class="fa-solid fa-envelope"></i></a>
                 <p>mampouyajooel@gmail.com</p>
             </div>
-           
+
         </div>
     </footer>
 

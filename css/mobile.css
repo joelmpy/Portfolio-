@@ -1,44 +1,47 @@
 /*RESPONSIVE NAVBAR MENU STARTS*/
-
-input[type="checkbox"] {
-  display: none;
-}
-
-.hamburger {
-  display: none;
-  font-size: 24px;
-  user-select: none;
-}
-
-/* APPLYING MEDIA QUERIES */
-
-@media (max-width: 880px) {
-  .menu {
-    display: none;
-    background: var(--color-bg-variant-contact);
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 16px 0;
+@media screen and (max-width : 880px) {
+  .navBar {
+      padding: 0;
   }
 
-  .menu li:hover {
-    display: inline-block;
-    background: var(--color-bg-variant);
-    transition: 0.3s ease;
+  .navBar .logo {
+      position: absolute;
+      top: 50px;
+      left: 50px;
   }
 
-  .menu li+li {
-    margin-top: 12px;
+  .navBar .menu-hamburger {
+      display: block;
   }
 
-  input[type="checkbox"]:checked~.menu {
-    display: block;
-    color: white;
+  .nav-links {
+      top: 0;
+      left: 0;
+      position: absolute;
+      background-color: rgb(255, 255, 255, 0, 20);
+      backdrop-filter: blur(3px);
+      width: 100%;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -100%;
+      transition: all 0.5s ease;
   }
 
-  .hamburger {
-    display: block;
+  .nav-links.mobile-menu {
+      margin-left: 0;
+  }
+
+  .nav-links ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navBar .nav-links ul li {
+      margin: 25px 0px;
+      font-size: 1.2rem;
   }
 }
 
@@ -48,6 +51,9 @@ input[type="checkbox"] {
 
 @media (max-width: 956px) {
 
+  .content {
+    display: none;
+  }
   .section-profil {
     max-width: 100%;
     max-height: 180vh;
