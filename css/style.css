@@ -4,7 +4,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background : var(--color-bg);
+  background: var(--color-bg);
 }
 
 a {
@@ -13,12 +13,12 @@ a {
 
 li {
   list-style: none;
-} 
+}
 
 .section-title {
   text-align: center;
   color: white;
-  padding:10px;
+  padding: 10px;
   font-size: 40px;
 }
 
@@ -30,11 +30,11 @@ li {
 }
 
 /******************************************* Couleur ******************************************************/
-:root{
-  --color-bg:#1f1f39;
-  --color-bg-variant:#2c2C6c;
-  --color-bg-variant-contact:#13134b;
-  --color-bg-primary:#4db5ff;
+:root {
+  --color-bg: #1f1f39;
+  --color-bg-variant: #2c2C6c;
+  --color-bg-variant-contact: #13134b;
+  --color-bg-primary: #4db5ff;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Oswald', sans-serif;
 }
@@ -152,7 +152,7 @@ h2 {
 /**************************** Section Profil *****************************/
 
 .section-profil {
-  background : var(--color-bg);
+  background: var(--color-bg);
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
@@ -183,9 +183,9 @@ h2 {
   transition: transform ease-in-out 0.3s;
 }
 
-.section-left img:hover{
+.section-left img:hover {
 
-transform: rotate(10deg);
+  transform: rotate(10deg);
 }
 
 .section-right {
@@ -213,9 +213,9 @@ transform: rotate(10deg);
 }
 
 .button {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
@@ -250,7 +250,7 @@ align-items: center;
 /*************************** Section Compétences *************************/
 
 #Compétences {
-  background : var(--color-bg);
+  background: var(--color-bg);
 }
 
 .section-inside-skill {
@@ -281,9 +281,9 @@ align-items: center;
 }
 
 .list img {
- max-height: 100px;
- max-width: 100px;
-cursor: pointer;
+  max-height: 100px;
+  max-width: 100px;
+  cursor: pointer;
 }
 
 .list img:hover {
@@ -324,9 +324,10 @@ cursor: pointer;
 
 /*************************** Section Projet *****************************/
 
-.section-projet{
-  background : var(--color-bg);
+.section-projet {
+  background: var(--color-bg);
 }
+
 .section-card {
   margin: 30px;
   display: flex;
@@ -347,11 +348,11 @@ cursor: pointer;
   margin: 10px;
   padding: 26px 15px 30px;
   background: #060d2c;
+  cursor: pointer;
 }
 
 .card:hover {
   cursor: pointer;
-  background : var(--color-bg);
   color: white;
   transform: scale(1.03);
   transition: all 1s ease;
@@ -366,9 +367,10 @@ cursor: pointer;
 }
 
 .card-body img {
-  max-height: 150px;
-  max-width: 200px;
+  max-height: 170px;
+  max-width: 220px;
 }
+
 .projet-title {
   font-size: 20px;
   font-weight: 500;
@@ -379,7 +381,7 @@ cursor: pointer;
 .card-body .card-text {
   font-size: 1rem;
   color: white;
-  text-align: justify;
+  text-align: center;
   font-family: papa;
 }
 
@@ -401,10 +403,10 @@ cursor: pointer;
 /*************************** Section Contact ****************************/
 
 .section-contact {
-  background : var( --color-bg);
+  background: var(--color-bg);
 }
 
-.contact{
+.contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -418,17 +420,17 @@ cursor: pointer;
   transition: transform ease-in-out 1s;
 }
 
-.contact a:hover{
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
+.contact a:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
-.contact .fa-github{
+.contact .fa-github {
   font-size: 100px;
 }
 
-.contact .fa-linkedin{
+.contact .fa-linkedin {
   font-size: 100px;
 }
 
@@ -441,22 +443,24 @@ cursor: pointer;
   flex-direction: column;
   padding: 20px 0 20px 0;
 }
+
 .mail a {
   color: white;
   transition: transform ease-in-out 1s;
 }
-.mail .fa-envelope{
+
+.mail .fa-envelope {
   font-size: 100px;
 }
 
 .mail a:hover {
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5); 
-  transform: scale(1.5); 
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
+
 .mail p {
   color: white;
   font-size: 30px;
   cursor: pointer;
 }
-
