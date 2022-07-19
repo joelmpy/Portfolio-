@@ -29,6 +29,10 @@ li {
   font-family: 'Oswald', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /******************************************* Couleur ******************************************************/
 :root {
   --color-bg: #1f1f39;
@@ -338,7 +342,7 @@ h2 {
 }
 
 .card {
-  height: 500px;
+  height: 450px;
   width: 300px;
   border-radius: 10px;
   color: #fff;
@@ -364,10 +368,11 @@ h2 {
   justify-content: center;
   flex-direction: column;
   padding: 15px;
+  height: 300px;
 }
 
 .card-body img {
-  max-height: 170px;
+  max-height: 180px;
   max-width: 220px;
 }
 
@@ -386,7 +391,7 @@ h2 {
 }
 
 .card-skill {
-  margin: 30px;
+  margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

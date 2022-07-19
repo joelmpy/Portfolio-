@@ -89,6 +89,7 @@
     text-align: center;
   }
 
+
   .btn {
     width: 200px;
     margin-left: 9rem;
@@ -144,6 +145,8 @@
     text-align: center;
   }
 
+
+
   .btn {
     width: 200px;
     margin-top: 50px;
@@ -151,7 +154,7 @@
     color: white;
     cursor: pointer;
     position: absolute;
-    right: 20%;
+    right: 25%;
   }
 
 
@@ -280,6 +283,7 @@
   .contact .fa-linkedin {
     font-size: 7rem;
   }
+
 
   .mail .fa-envelope {
     font-size: 7rem;
